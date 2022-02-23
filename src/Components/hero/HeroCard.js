@@ -12,7 +12,7 @@ export const HeroCard = ({
 }) => //Desestructuracion de las props mandadas en en HeroList.js 
 
 {
-    const imagePath = `/assets/heroes/${id}.jpg`;//Extrae la imagen del path de los heroes
+    const imagePath = `./assets/heroes/${id}.jpg`;//Extrae la imagen del path de los heroes
     return (
         <div className='col'>
             <div className='card'>
